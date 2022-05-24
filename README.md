@@ -1,24 +1,18 @@
-# README
+Rails: 7.0.3
+Ruby: 2.7.2
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Create an .env file in root directory of project
+Add the following keys to your .env file
 
-* Ruby version
+-DEVISE_JWT_SECRET_KEY
+-ROOT_URL
+-SENDER_EMAIL
+-SENDER_PASSWORD
+-SERVER_URL
 
-* System dependencies
+run bundle install
 
-* Configuration
+rails db:migrate
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails s -p 3001
