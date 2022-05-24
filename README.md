@@ -5,11 +5,11 @@ Ruby: 2.7.2
 Create an .env file in root directory of project
 Add the following keys to your .env file
 
--DEVISE_JWT_SECRET_KEY
--ROOT_URL
--SENDER_EMAIL
--SENDER_PASSWORD
--SERVER_URL
+* DEVISE_JWT_SECRET_KEY
+* ROOT_URL
+* SENDER_EMAIL
+* SENDER_PASSWORD
+* SERVER_URL
 
 run bundle install
 
